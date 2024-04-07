@@ -1,0 +1,10 @@
+# Logfile created on 2024-04-07 12:25:31 +0000 by logger.rb/v1.5.3
+I, [2024-04-07T12:25:31.538035 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2024-04-07T12:25:31.539167 #1]  INFO -- request: GET http://ec2-44-223-74-14.compute-1.amazonaws.com:8080/job/shell-pipeline/config.xml
+I, [2024-04-07T12:25:31.571313 #1]  INFO -- response: Status 200
+D, [2024-04-07T12:25:31.583096 #1] DEBUG -- : [Transformers::Jenkins::DesignerPipeline::Jobs]: Located transformer for 'hudson.tasks.Shell'
+I, [2024-04-07T12:25:31.585806 #1]  INFO -- : Output file(s):
+I, [2024-04-07T12:25:31.588935 #1]  INFO -- :   tmp/dry-run/shell-pipeline/.github/workflows/shell-pipeline.yml
+I, [2024-04-07T12:25:31.636330 #1]  INFO -- request: GET https://api.github.com/user
+I, [2024-04-07T12:25:31.708536 #1]  INFO -- response: Status 200
+I, [2024-04-07T12:25:31.710362 #1]  INFO -- : Sending telemetry with transaction id 'ce598529-b5bc-420e-8a21-015fa97c75a9'
