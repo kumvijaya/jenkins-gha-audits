@@ -1,0 +1,18 @@
+# Logfile created on 2024-04-07 08:48:56 +0000 by logger.rb/v1.5.3
+I, [2024-04-07T08:48:56.232556 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2024-04-07T08:48:56.232649 #1]  INFO -- : Auditing 'REDACTED2-44-223-74-14.compute-1.amazonaws.com:8080'
+I, [2024-04-07T08:48:56.243852 #1]  INFO -- request: GET REDACTED2-44-223-74-14.compute-1.amazonaws.com:8080/api/json?tree=jobs%5Bname%2Curl%2CfullName%5D
+I, [2024-04-07T08:48:56.328035 #1]  INFO -- response: Status 200
+I, [2024-04-07T08:48:56.329267 #1]  INFO -- : Thread collection size: 2
+I, [2024-04-07T08:48:56.330838 #1]  INFO -- request: GET REDACTED2-44-223-74-14.compute-1.amazonaws.com:8080/job/test-job/config.xml
+I, [2024-04-07T08:48:56.339768 #1]  INFO -- response: Status 200
+I, [2024-04-07T08:48:56.351649 #1]  INFO -- : Output file(s):
+I, [2024-04-07T08:48:56.353367 #1]  INFO -- :   tmp/audit/test-job/error.txt
+I, [2024-04-07T08:48:56.353840 #1]  INFO -- :   tmp/audit/test-job/config.json
+I, [2024-04-07T08:48:56.355026 #1]  INFO -- :   tmp/audit/workflow_usage.csv
+I, [2024-04-07T08:48:56.355989 #1]  INFO -- :   tmp/audit/audit_summary.md
+W, [2024-04-07T08:49:03.085010 #1]  WARN -- : Secrets redacted in file(s):
+W, [2024-04-07T08:49:03.085644 #1]  WARN -- :   tmp/audit/log/valet-20240407-084856.log
+I, [2024-04-07T08:49:03.140925 #1]  INFO -- request: GET https://api.github.com/user
+I, [2024-04-07T08:49:03.225584 #1]  INFO -- response: Status 200
+I, [2024-04-07T08:49:03.227473 #1]  INFO -- : Sending telemetry with transaction id '975ab099-58d8-4ea6-ae52-0019a8ae8791'
