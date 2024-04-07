@@ -1,0 +1,7 @@
+Pipeline,Action,File path
+shell-pipeline,actions/checkout@v4.1.0,tmp/audit-test-2/shell-pipeline/.github/workflows/shell-pipeline.yml
+
+Pipeline,Secret,File path
+
+
+Pipeline,Runner,File path

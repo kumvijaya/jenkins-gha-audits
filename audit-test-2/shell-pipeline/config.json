@@ -1,0 +1,26 @@
+{
+  "project": {
+    "description": null,
+    "keepDependencies": "false",
+    "properties": null,
+    "scm": {
+      "class": "hudson.scm.NullSCM"
+    },
+    "canRoam": "true",
+    "disabled": "false",
+    "blockBuildWhenDownstreamBuilding": "false",
+    "blockBuildWhenUpstreamBuilding": "false",
+    "triggers": null,
+    "concurrentBuild": "false",
+    "builders": [
+      {
+        "hudson.tasks.Shell": {
+          "command": "echo \"Hello bash pipeline\"",
+          "configuredLocalRules": null
+        }
+      }
+    ],
+    "publishers": null,
+    "buildWrappers": null
+  }
+}
