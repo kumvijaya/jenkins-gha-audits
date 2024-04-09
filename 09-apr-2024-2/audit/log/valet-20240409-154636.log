@@ -1,0 +1,23 @@
+# Logfile created on 2024-04-09 15:46:36 +0000 by logger.rb/v1.5.3
+I, [2024-04-09T15:46:36.616077 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2024-04-09T15:46:36.616119 #1]  INFO -- : Auditing 'REDACTED2-44-199-253-151.compute-1.amazonaws.com:8080'
+I, [2024-04-09T15:46:36.623128 #1]  INFO -- request: GET REDACTED2-44-199-253-151.compute-1.amazonaws.com:8080/api/json?tree=jobs%5Bname%2Curl%2CfullName%5D
+I, [2024-04-09T15:46:36.655995 #1]  INFO -- response: Status 200
+I, [2024-04-09T15:46:36.657059 #1]  INFO -- : Thread collection size: 2
+I, [2024-04-09T15:46:36.659158 #1]  INFO -- request: GET REDACTED2-44-199-253-151.compute-1.amazonaws.com:8080/job/scripted-job/config.xml
+I, [2024-04-09T15:46:36.660378 #1]  INFO -- request: GET REDACTED2-44-199-253-151.compute-1.amazonaws.com:8080/job/free-style-job/config.xml
+I, [2024-04-09T15:46:36.667329 #1]  INFO -- response: Status 200
+I, [2024-04-09T15:46:36.672507 #1]  INFO -- response: Status 200
+D, [2024-04-09T15:46:36.680674 #1] DEBUG -- : [Transformers::Jenkins::DesignerPipeline::Jobs]: Located transformer for 'hudson.tasks.Shell'
+I, [2024-04-09T15:46:36.683823 #1]  INFO -- : Output file(s):
+I, [2024-04-09T15:46:36.686904 #1]  INFO -- :   09-apr-2024-2/audit/free-style-job/.github/workflows/free-style-job.yml
+I, [2024-04-09T15:46:36.687381 #1]  INFO -- :   09-apr-2024-2/audit/free-style-job/config.json
+I, [2024-04-09T15:46:36.688305 #1]  INFO -- :   09-apr-2024-2/audit/scripted-job/error.txt
+I, [2024-04-09T15:46:36.688762 #1]  INFO -- :   09-apr-2024-2/audit/scripted-job/config.json
+I, [2024-04-09T15:46:36.690700 #1]  INFO -- :   09-apr-2024-2/audit/workflow_usage.csv
+I, [2024-04-09T15:46:36.692915 #1]  INFO -- :   09-apr-2024-2/audit/audit_summary.md
+W, [2024-04-09T15:46:43.103441 #1]  WARN -- : Secrets redacted in file(s):
+W, [2024-04-09T15:46:43.103708 #1]  WARN -- :   09-apr-2024-2/audit/log/valet-20240409-154636.log
+I, [2024-04-09T15:46:43.147708 #1]  INFO -- request: GET https://api.github.com/user
+I, [2024-04-09T15:46:43.238055 #1]  INFO -- response: Status 200
+I, [2024-04-09T15:46:43.239533 #1]  INFO -- : Sending telemetry with transaction id 'a156cd05-151b-4b9d-9843-82c8288bb0cb'

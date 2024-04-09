@@ -1,0 +1,7 @@
+Pipeline,Action,File path
+free-style-job,actions/checkout@v4.1.0,09-apr-2024-2/audit/free-style-job/.github/workflows/free-style-job.yml
+
+Pipeline,Secret,File path
+
+
+Pipeline,Runner,File path
