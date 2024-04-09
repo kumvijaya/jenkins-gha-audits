@@ -1,0 +1,17 @@
+{
+  "flow-definition": {
+    "plugin": "workflow-job@1400.v7fd111b_ec82f",
+    "actions": null,
+    "description": null,
+    "keepDependencies": "false",
+    "properties": null,
+    "definition": {
+      "class": "org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition",
+      "plugin": "workflow-cps@3894.vd0f0248b_a_fc4",
+      "script": "node() {\n    echo \"Done\"\n}",
+      "sandbox": "true"
+    },
+    "triggers": null,
+    "disabled": "false"
+  }
+}
