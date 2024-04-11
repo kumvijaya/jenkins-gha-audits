@@ -10,4 +10,6 @@ jobs:
       uses: actions/checkout@v4.1.0
     - name: run command
       shell: bash
-      run: echo "Hello bash pipeline"
+      run: |
+        echo "Hello bash pipeline"
+        exit 1
